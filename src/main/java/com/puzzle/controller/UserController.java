@@ -1,9 +1,9 @@
-package com.skeleton.controller;
+package com.puzzle.controller;
 
 import java.time.LocalDate;
 
-import com.skeleton.model.User;
-import com.skeleton.service.UserService;
+import com.puzzle.model.User;
+import com.puzzle.service.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

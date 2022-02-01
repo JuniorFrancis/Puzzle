@@ -1,4 +1,4 @@
-package com.skeleton.model;
+package com.puzzle.model;
 
 import java.io.Serializable;
 import java.time.LocalDate;

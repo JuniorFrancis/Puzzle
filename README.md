@@ -1,4 +1,4 @@
-# skeleton-springboot
+# puzzle - expense management
 template spring boot mvc project 
 
 Using -> 

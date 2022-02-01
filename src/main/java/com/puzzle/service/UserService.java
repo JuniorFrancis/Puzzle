@@ -1,9 +1,8 @@
-package com.skeleton.service;
+package com.puzzle.service;
 
-import com.skeleton.model.User;
-import com.skeleton.repository.UserRepository;
-
-import com.skeleton.service.UserService;
+import com.puzzle.model.User;
+import com.puzzle.repository.UserRepository;
+import com.puzzle.service.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

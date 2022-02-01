@@ -1,11 +1,11 @@
-package com.skeleton.repository;
+package com.puzzle.repository;
 
-import com.skeleton.model.User;
+import com.puzzle.model.Bank;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface BankRepository extends JpaRepository<Bank, Long> {
     
 }
