@@ -1,6 +1,7 @@
 package com.puzzle.controller;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import com.puzzle.model.User;
 import com.puzzle.service.UserService;
@@ -20,15 +21,18 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    // @GetMapping
+    // public  ResponseEntity<String> hello() {
+    //     return this.userService.hello();
+    // }
+
     @GetMapping
-    public  ResponseEntity<String> hello() {
-        return this.userService.hello();
+    public ResponseEntity<List<User>> getAll() {
+        return userService.getAll();
     }
 
     @PostMapping
     public ResponseEntity<User> create(@RequestBody User user) {
-        user.setCreatedAt(LocalDate.now());
-
         return userService.create(user);
     }
     
